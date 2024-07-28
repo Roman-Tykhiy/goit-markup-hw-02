@@ -1,4 +1,5 @@
-body {font-family:"Roboto", san-serif;
+body {
+font-family:"Roboto", san-serif;
 background-color: white;
 font-size: 16px;
 color: #434455;
@@ -38,6 +39,10 @@ address {
 .heder_nav_link:hover {
         color: #404bbf
 }
+.heder_nav_link:focus {
+        color: #404bbf
+}
+
 .heder_addres_link {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -49,6 +54,9 @@ address {
 .heder_addres_link:hover {
         color: #404bbf;
 }
+.heder_addres_link:focus {
+        color: #404bbf;
+}
 .hero_page {
     background: #2e2f42;
 }
@@ -56,7 +64,7 @@ address {
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -102,8 +110,9 @@ address {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize
 }
-.our_teams_itam {
+.our_teams_title_item {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
@@ -111,6 +120,7 @@ address {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        background: #fff;
 }
 .our_teams_text {
         font-family: "Roboto", sans-serif;
@@ -125,12 +135,13 @@ address {
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize
 }
-.our_portfolio_itam {
+.our_portfolio_title_itam {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
