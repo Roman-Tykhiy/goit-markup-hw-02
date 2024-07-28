@@ -1,5 +1,5 @@
 body {
-font-family:"Roboto", san-serif;
+font-family:"Roboto", sans-serif;
 background-color: white;
 font-size: 16px;
 color: #434455;
@@ -13,7 +13,7 @@ ul, ol {
 address {
     font-style: normal;
 }
-.logotype {
+.header_logotyp {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -120,7 +120,9 @@ address {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        background: #fff;
+}
+.our_teams_itam {
+        background-color: #fff;
 }
 .our_teams_text {
         font-family: "Roboto", sans-serif;
